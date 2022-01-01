@@ -464,9 +464,9 @@ line-height: 32px;
   padding-bottom: 1px;
 }
 
-/* .footer-part {
-  padding-bottom: 10px;
-} */
+.footer-part {
+  padding-bottom: 52px;
+}
 
 .footer-main {
   display: flex;
@@ -504,7 +504,6 @@ line-height: 32px;
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  /* margin-bottom: 52px; */
 }
 
 .footer-item-subtitle {
@@ -515,7 +514,7 @@ line-height: 32px;
   margin-bottom: 37px;
 }
 
-.footer-item:not(last-child) {
+.footer-item:not(:last-child) {
   letter-spacing: 2%;
   color: #919299;
   margin-bottom: 25px;
